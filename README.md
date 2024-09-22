@@ -10,8 +10,6 @@ You are a junior data analyst working on the marketing analyst team at Bellabeat
 
 **ASK**
 
-Business Task 
-
 The business task is to:
 
 1.	Analyze smart device usage data to uncover relevant trends.
@@ -30,13 +28,13 @@ Overview: This dataset contains personal fitness tracker data collected from 30 
 
 **PROCESS**
 
-1.	Tools Used: I chose MySQL for my analysis because I was working with a large dataset. I also chose Tableau and R for data visualizations.
+1.	**Tools Used**: I chose MySQL for my analysis because I was working with a large dataset. I also chose Tableau and R for data visualizations.
 
-2.	Database Creation: I created a database called fitbit_dataset_1 to store data from December 3, 2016, to November 4, 2016, which included 11 tables. Additionally, I set up another database named fitbit_dataset_2 for data from December 4, 2016, to December 5, 2016, which contained 18 tables.
+2.	**Database Creation**: I created a database called fitbit_dataset_1 to store data from December 3, 2016, to November 4, 2016, which included 11 tables. Additionally, I set up another database named fitbit_dataset_2 for data from December 4, 2016, to December 5, 2016, which contained 18 tables.
 
-3.	Data Exploration: To understand the structure of the 29 tables across both databases, I used the DESCRIBE function. This helped me get a clear view of the table schemas. I also employed the SELECT * FROM function to explore the data within these tables.
+3.	**Data Exploration**: To understand the structure of the 29 tables across both databases, I used the DESCRIBE function. This helped me get a clear view of the table schemas. I also employed the SELECT * FROM function to explore the data within these tables.
 
-4.	Data Selection for Analysis: Since my analysis focused on daily activities, I decided to work exclusively with the data from fitbit_dataset_2. From this dataset, I selected the following tables for my analysis:
+4.	**Data Selection for Analysis**: Since my analysis focused on daily activities, I decided to work exclusively with the data from fitbit_dataset_2. From this dataset, I selected the following tables for my analysis:
 - dailyactivity_merged.csv
 - heartrate_seconds_merged.csv
 - sleepday_merged.csv
