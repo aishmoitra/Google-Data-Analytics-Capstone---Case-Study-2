@@ -1,7 +1,7 @@
 **[Case Study 2: How Can a Wellness Technology Company Play It
 Smart?]{.underline}**
 
-**[Background]{.underline}**
+**[Background]**
 
 Urška Sršen and Sando Mur founded Bellabeat, a high-tech company that
 manufactures health-focused smart products. Sršen used her background as
@@ -28,7 +28,7 @@ insight into how people are already using their smart devices. Then,
 using this information, she would like high-level recommendations for
 how these trends can inform Bellabeat marketing strategy.
 
-**[Scenario]{.underline}**
+**[Scenario]**
 
 You are a junior data analyst working on the marketing analyst team at
 Bellabeat, a high-tech manufacturer of health-focused products for
@@ -43,9 +43,9 @@ will then help guide marketing strategy for the company. You will
 present your analysis to the Bellabeat executive team along with your
 high-level recommendations for Bellabeat's marketing strategy.
 
-**[ASK]{.underline}**
+**[ASK]**
 
-**[Business Task]{.underline}**
+**[Business Task]**
 
 The business task is to:
 
@@ -56,9 +56,9 @@ The business task is to:
 3.  Provide actionable recommendations to optimize Bellabeat\'s
     marketing strategy based on the analysis.
 
-**[PREPARE]{.underline}**
+**[PREPARE]**
 
-**[Data Sources]{.underline}**
+**[Data Sources]**
 
 **FitBit Fitness Tracker Data**
 
@@ -69,7 +69,7 @@ includes daily information on activities such as steps, calories burned,
 distances travelled, and sleep patterns, which provides insight into
 users\' daily health habits.
 
-**[PROCESS]{.underline}**
+**[PROCESS]**
 
 1.  **Tools Used:** I chose MySQL for my analysis because I was working
     with a large dataset. I also chose Tableau and R for data
@@ -102,7 +102,7 @@ users\' daily health habits.
 This structured approach allowed me to effectively manage and analyze
 the Fitbit data, focusing on the insights that matter most.
 
-**[ANALYZE & SHARE]{.underline}**
+**[ANALYZE & SHARE]**
 
 As I delved into the FitBit Fitness Tracker dataset, I explored various
 aspects of user activity, health metrics, and their relationships.
@@ -216,9 +216,9 @@ Here's a structured overview of my findings:
 >
 > **Fig 1.4**
 
-**[ACT]{.underline}**
+**[ACT]**
 
-### 1. **Understanding User Activity and Health Trends**
+**1. Understanding User Activity and Health Trends**
 
 -   **Steps and Calories**: On average, users take around 7,637 steps
     per day, which is a bit below the recommended 10,000 steps. They
@@ -244,7 +244,7 @@ Here's a structured overview of my findings:
 > active users might appreciate more advanced workout ideas through the
 > **Bellabeat app** or **Bellabeat membership**.
 
-### 2. **Applying This to Bellabeat Products**
+***2. Applying This to Bellabeat Products**
 
 -   **Heart Rate Monitoring**: I looked at heart rate data and found
     that activity levels don't always match heart health. Bellabeat's
@@ -266,7 +266,7 @@ Here's a structured overview of my findings:
     walk a lot or have higher heart rates might get reminders to drink
     more water.
 
-### 3. **Improving Bellabeat's Marketing Strategy**
+**3. Improving Bellabeat's Marketing Strategy**
 
 -   **Personalized Wellness**: We can use the data from the **Bellabeat
     app** to send users personalized health advice. For example, if a
