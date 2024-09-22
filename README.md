@@ -1,7 +1,7 @@
-**[Case Study 2: How Can a Wellness Technology Company Play It
-Smart?]{.underline}**
+**Case Study 2: How Can a Wellness Technology Company Play It
+Smart?**
 
-**[Background]**
+** Background**
 
 Urška Sršen and Sando Mur founded Bellabeat, a high-tech company that
 manufactures health-focused smart products. Sršen used her background as
