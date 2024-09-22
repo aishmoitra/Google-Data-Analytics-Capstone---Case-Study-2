@@ -65,7 +65,7 @@ I assessed the average heart rate for each user, which is crucial for evaluating
 4.	**Correlation Between Heart Rate and Activity Levels**:
 I analyzed the relationship between heart rates and daily steps. Although the average heart rates ranged from 66.13 bpm to 93.78 bpm, I found that higher activity levels did not consistently correlate with lower heart rates. For instance, User ID 8877689391 had high activity but a moderate heart rate, while User ID 2026352035 showed low activity and a higher heart rate, indicating potential health issues.
 
-[!alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.1.png)
+![alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.1.png)
 
 5.	**Average Sleep Duration Calculation**:
 I calculated the average sleep duration, which was 419.46 minutes (about 7 hours). This is slightly below the recommended 7-9 hours for adults. Insufficient sleep can lead to various health issues, highlighting the need for users to focus on sleep quality.
@@ -73,12 +73,12 @@ I calculated the average sleep duration, which was 419.46 minutes (about 7 hours
 6.	**Correlation Between Sleep and Activity**:
 I explored the relationship between average sleep duration and daily steps. I noted patterns where some users had high sleep duration but low activity, suggesting they may need motivational resources. For example, User 1844505072 had good sleep but low steps, indicating a potential area for improvement.
 
-[!alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.2.png)
+![alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.2.png)
 
 7.	**Relationship Between Sleep Duration and Heart Rate**:
 I looked at how sleep duration correlates with heart rates. Users with more sleep generally had lower heart rates, suggesting better stress management. However, some users, like 2026352035, had high sleep but also a high heart rate, indicating the need for further investigation into their health.
 
-[!alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.3.png)
+![alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.3.png)
 
 8.	**Average Weight Analysis**:
 I calculated the average weight for each user, finding it to be 72.03 kg. The average BMI of 25.18, which falls in the overweight category. User 1503960366 has a fat percentage of 22 but with BMI of 22.64 and User 4319703577 has fat percentage of 25 with BMI of 27.45, so BMI may not be a clear indicator of health, since they do not take into account bone density, activity level and fat percentage.
@@ -86,7 +86,7 @@ I calculated the average weight for each user, finding it to be 72.03 kg. The av
 9.	**Correlation Between Weight and Activity Levels**:
 I observed that some users with higher weights, like 8877689391, still maintained high activity levels, while others, like 1927972279, showed low activity. This indicates that weight alone does not determine fitness levels. I found that lighter users, such as 1503960366, tended to be more active, although this was not a strict rule. This variability highlights the influence of motivation and lifestyle on activity levels. 
  
-[!alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.4.png)
+![alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.4.png)
 
 **ACT**
 1. **Understanding User Activity and Health Trends**
