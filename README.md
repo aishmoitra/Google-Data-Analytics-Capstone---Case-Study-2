@@ -101,7 +101,7 @@ I calculated the average weight for each user, finding it to be 72.03 kg. The av
 
 		SELECT 
     			AVG(WeightKg) AS avg_weight,
-			AVG(BMI) AS avg_bmi
+				AVG(BMI) AS avg_bmi
 		FROM 
     			weightloginfo_merged;
 
