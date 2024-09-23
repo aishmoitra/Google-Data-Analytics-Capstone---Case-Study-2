@@ -50,7 +50,7 @@ As I delved into the FitBit Fitness Tracker dataset, I explored various aspects 
 I calculated the average number of steps taken and calories burned across all users. My analysis showed an average of 7,637.91 steps and 2,303.61 calories burned daily. While this indicates that users are relatively active, the average is below the 10,000 steps recommended by the CDC. This suggests that users could benefit from encouragement to increase their daily steps and optimize their calorie burning.
 
 2.	**User Segmentation Based on Daily Steps:**
-I categorized users into three groups based on their average daily steps (Fig 1.0):
+I categorized users into three groups based on their average daily steps:
 •	Moderately Active Users (19 users): Engaging in 5,000 to 10,000 steps, this is the largest group.
 •	Low Activity Users (8 users): Taking fewer than 5,000 steps, indicating a need for more motivation.
 •	Highly Active Users (7 users): Exceeding 10,000 steps, likely committed to their fitness.
