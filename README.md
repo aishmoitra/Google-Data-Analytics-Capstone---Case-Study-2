@@ -66,7 +66,7 @@ I categorized users into three groups based on their average daily steps:
 ![alt text](https://github.com/aishmoitra/moitra/blob/98102b620b622d9fcc51083790d465fd9d60235c/Data%20Viz/Fig%201.png)
 
 3.	**Average Heart Rate Analysis**:
-I assessed the average heart rate for each user, which is crucial for evaluating cardiovascular health. The average heart rate was 77.32 bpm, generally considered normal for adults. This suggests that many users are at a moderate fitness level, depending on their overall lifestyle.
+I assessed the average heart rate for each user, which is crucial for evaluating cardiovascular health. The average heart rate was 77.32 bpm, generally considered normal for adults. This suggests that many users are at a moderate fitness level, depending on their overall lifestyle. I used the following query for my analysis:
 
 		SELECT 
     			AVG(Value) AS avg_heart_rate
