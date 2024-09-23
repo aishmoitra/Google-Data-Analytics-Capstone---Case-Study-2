@@ -118,7 +118,7 @@ I looked at how sleep duration correlates with heart rates. Users with more slee
 ![alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.3.png)
 
 8.	**Average Weight Analysis**:
-I calculated the average weight for each user, finding it to be 72.03 kg. The average BMI of 25.18, which falls in the overweight category. User 1503960366 has a fat percentage of 22 but with BMI of 22.64 and User 4319703577 has fat percentage of 25 with BMI of 27.45, so BMI may not be a clear indicator of health, since they do not take into account bone density, activity level and fat percentage. I used the following query for my analysis:
+I calculated the average weight for each user, finding it to be 72.03 kg. The average BMI of 25.18, which falls in the overweight category. User 1503960366 has a fat percentage of 22 with BMI of 22.64 and User 4319703577 has fat percentage of 25 with BMI of 27.45, so BMI may not be a clear indicator of health, since they do not take into account bone density, activity level and fat percentage. I used the following query for my analysis:
 
 		SELECT 
     			AVG(WeightKg) AS avg_weight,
