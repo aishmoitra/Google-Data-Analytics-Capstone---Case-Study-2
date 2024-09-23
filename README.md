@@ -115,5 +115,6 @@ We can use this to personalize recommendations. For example, users with low acti
 •	**Helping Low-Activity Users:** For users who aren’t very active, Bellabeat can create campaigns that encourage them to start small. We could share easy workout ideas or send them reminders to take short walks. Offering simple health goals through the Bellabeat membership can motivate them to become more active.
 
 •	**Engaging Active Users:** Highly active users might appreciate the extra insights that come with the Bellabeat membership, like personalized plans for better recovery or performance improvement. We could promote the membership as a way to take their fitness to the next level.
+
 •	**Educational Content:** Lastly, we can create content that teaches users about the connections between sleep, stress, and activity. For example, blog posts or notifications in the app could explain how Bellabeat’s products help manage stress and improve sleep, encouraging users to get the most out of their Leaf or Time tracker.
 
