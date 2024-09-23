@@ -35,10 +35,10 @@ Overview: This dataset contains personal fitness tracker data collected from 30 
 3.	**Data Exploration**: To understand the structure of the 29 tables across both databases, I used the DESCRIBE function. This helped me get a clear view of the table schemas. I also employed the SELECT * FROM function to explore the data within these tables.
 
 4.	**Data Selection for Analysis**: Since my analysis focused on daily activities, I decided to work exclusively with the data from fitbit_dataset_2. From this dataset, I selected the following tables for my analysis:
-a.  dailyactivity_merged.csv
-b.  heartrate_seconds_merged.csv
-c.  sleepday_merged.csv
-d.  weightloginfo_merged.csv
+  4.1.  dailyactivity_merged.csv
+  4.2.  heartrate_seconds_merged.csv
+  4.3.  sleepday_merged.csv
+  4.4.  weightloginfo_merged.csv
 
 This structured approach allowed me to effectively manage and analyze the Fitbit data, focusing on the insights that matter most.
 
