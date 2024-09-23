@@ -48,7 +48,7 @@ This structured approach allowed me to effectively manage and analyze the Fitbit
 As I delved into the FitBit Fitness Tracker dataset, I explored various aspects of user activity, health metrics, and their relationships. Here’s a structured overview of my findings:
 
 1.	**Average Steps and Calories Burned:**
-I calculated the average number of steps taken and calories burned across all users. My analysis showed an average of 7,637.91 steps and 2,303.61 calories burned daily. While this indicates that users are relatively active, the average is below the 10,000 steps recommended by the CDC. This suggests that users could benefit from encouragement to increase their daily steps and optimize their calorie burning. I used the following query for my analysis.
+I calculated the average number of steps taken and calories burned across all users. My analysis showed an average of 7,637.91 steps and 2,303.61 calories burned daily. While this indicates that users are relatively active, the average is below the 10,000 steps recommended by the CDC. This suggests that users could benefit from encouragement to increase their daily steps and optimize their calorie burning. I used the following query for my analysis:
 
 		SELECT 
     			AVG(TotalSteps) AS avg_steps, 
@@ -68,10 +68,10 @@ I categorized users into three groups based on their average daily steps:
 3.	**Average Heart Rate Analysis**:
 I assessed the average heart rate for each user, which is crucial for evaluating cardiovascular health. The average heart rate was 77.32 bpm, generally considered normal for adults. This suggests that many users are at a moderate fitness level, depending on their overall lifestyle.
 
-SELECT 
-    AVG(Value) AS avg_heart_rate
-FROM 
-    heartrate_seconds_merged;
+		SELECT 
+    			AVG(Value) AS avg_heart_rate
+		FROM 
+    			heartrate_seconds_merged;
 
 5.	**Correlation Between Heart Rate and Activity Levels**:
 I analyzed the relationship between heart rates and daily steps. Although the average heart rates ranged from 66.13 bpm to 93.78 bpm, I found that higher activity levels did not consistently correlate with lower heart rates. For instance, User ID 8877689391 had high activity but a moderate heart rate, while User ID 2026352035 showed low activity and a higher heart rate, indicating potential health issues.
@@ -79,12 +79,12 @@ I analyzed the relationship between heart rates and daily steps. Although the av
 ![alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.1.png)
 
 5.	**Average Sleep Duration Calculation**:
-I calculated the average sleep duration, which was 419.46 minutes (about 7 hours). This is slightly below the recommended 7-9 hours for adults. Insufficient sleep can lead to various health issues, highlighting the need for users to focus on sleep quality.
+I calculated the average sleep duration, which was 419.46 minutes (about 7 hours). This is slightly below the recommended 7-9 hours for adults. Insufficient sleep can lead to various health issues, highlighting the need for users to focus on sleep quality. I used the following query for my analysis:
 
-SELECT 
-    AVG(TotalMinutesAsleep) AS avg_sleep_duration
-FROM 
-    sleepday_merged;
+		SELECT 
+    			AVG(TotalMinutesAsleep) AS avg_sleep_duration
+		FROM 
+    			sleepday_merged;
     
 6.	**Correlation Between Sleep and Activity**:
 I explored the relationship between average sleep duration and daily steps. I noted patterns where some users had high sleep duration but low activity, suggesting they may need motivational resources. For example, User 1844505072 had good sleep but low steps, indicating a potential area for improvement.
@@ -97,13 +97,13 @@ I looked at how sleep duration correlates with heart rates. Users with more slee
 ![alt text](https://github.com/aishmoitra/moitra/blob/6818c3b9af2195fb7b469823f55da9c9a816581c/Data%20Viz/Fig%201.3.png)
 
 8.	**Average Weight Analysis**:
-I calculated the average weight for each user, finding it to be 72.03 kg. The average BMI of 25.18, which falls in the overweight category. User 1503960366 has a fat percentage of 22 but with BMI of 22.64 and User 4319703577 has fat percentage of 25 with BMI of 27.45, so BMI may not be a clear indicator of health, since they do not take into account bone density, activity level and fat percentage.
+I calculated the average weight for each user, finding it to be 72.03 kg. The average BMI of 25.18, which falls in the overweight category. User 1503960366 has a fat percentage of 22 but with BMI of 22.64 and User 4319703577 has fat percentage of 25 with BMI of 27.45, so BMI may not be a clear indicator of health, since they do not take into account bone density, activity level and fat percentage. I used the following query for my analysis:
 
-SELECT 
-    AVG(WeightKg) AS avg_weight,
-	AVG(BMI) AS avg_bmi
-FROM 
-    weightloginfo_merged;
+		SELECT 
+    			AVG(WeightKg) AS avg_weight,
+			AVG(BMI) AS avg_bmi
+		FROM 
+    			weightloginfo_merged;
 
 10.	**Correlation Between Weight and Activity Levels**:
 I observed that some users with higher weights, like 8877689391, still maintained high activity levels, while others, like 1927972279, showed low activity. This indicates that weight alone does not determine fitness levels. I found that lighter users, such as 1503960366, tended to be more active, although this was not a strict rule. This variability highlights the influence of motivation and lifestyle on activity levels. 
