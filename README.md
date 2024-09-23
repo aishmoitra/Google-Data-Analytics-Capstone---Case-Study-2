@@ -24,7 +24,18 @@ The business task is to:
 
 **FitBit Fitness Tracker Data** 
 
-Overview: This dataset contains personal fitness tracker data collected from 30 Fitbit users who voluntarily shared their minute-level data on physical activity, heart rate, and sleep monitoring. The dataset includes daily information on activities such as steps, calories burned, distances travelled, and sleep patterns, which provides insight into users' daily health habits.
+1. **Overview:** This dataset contains personal fitness tracker data collected from 30 Fitbit users who voluntarily shared their minute-level data on physical activity, heart rate, and sleep monitoring. The dataset includes daily information on activities such as steps, calories burned, distances travelled, and sleep patterns, which provides insight into users' daily health habits.
+   
+2. **Data Source**: Available on Kaggle, public dataset of Fitbit users.
+
+3. **Bias and Credibility (ROCCC)**:
+	1. **Reliability**: Small sample size (30 users) may not represent the general population.
+	2. **Objectivity**: Self-reported metrics could introduce bias.
+	3. **Credibility**: Limited diversity raises concerns about generalizability.
+	4. **Currency**: Ensure data is up-to-date and relevant.
+	5. **Completeness**: Check for missing values, duplicates, and outliers.
+
+4. **Licensing and Privacy**: CC0 license allows free use; anonymization of identifiable information is essential.
 
 **PROCESS**
 
