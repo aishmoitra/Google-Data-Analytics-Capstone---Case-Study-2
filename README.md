@@ -48,13 +48,13 @@ This structured approach allowed me to effectively manage and analyze the Fitbit
 As I delved into the FitBit Fitness Tracker dataset, I explored various aspects of user activity, health metrics, and their relationships. Here’s a structured overview of my findings:
 
 1.	**Average Steps and Calories Burned:**
-I calculated the average number of steps taken and calories burned across all users. My analysis showed an average of 7,637.91 steps and 2,303.61 calories burned daily. While this indicates that users are relatively active, the average is below the 10,000 steps recommended by the CDC. This suggests that users could benefit from encouragement to increase their daily steps and optimize their calorie burning.
+I calculated the average number of steps taken and calories burned across all users. My analysis showed an average of 7,637.91 steps and 2,303.61 calories burned daily. While this indicates that users are relatively active, the average is below the 10,000 steps recommended by the CDC. This suggests that users could benefit from encouragement to increase their daily steps and optimize their calorie burning. I used the following query for my analysis.
 
-SELECT 
-    AVG(TotalSteps) AS avg_steps, 
-    AVG(Calories) AS avg_calories
-FROM 
-    dailyactivity_merged;
+	SELECT 
+    		AVG(TotalSteps) AS avg_steps, 
+    		AVG(Calories) AS avg_calories
+	FROM 
+	    	dailyactivity_merged;
     
 3.	**User Segmentation Based on Daily Steps:**
 I categorized users into three groups based on their average daily steps:
