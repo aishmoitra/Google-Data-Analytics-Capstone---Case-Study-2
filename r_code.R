@@ -11,25 +11,22 @@ ggplot(data=re_sleep_steps, aes(x = avg_sleep_duration, y = avg_steps, color = f
   theme(legend.position = "right")
 
 
-#Scatter plot on correlation of sleep and heart rate
-data(re_sleep_hr)
-View(re_sleep_hr)
-ggplot(data=re_sleep_hr, aes(x = avg_sleep_duration, y = avg_heart_rate)) +
-  geom_point(color = 'blue') +
-  labs(title = "Sleep Duration vs Heart Rate",
+# Scatter plot of Average Sleep Duration vs. Average Heart Rate by User
+ggplot(data=re_sleep_hr, aes(x = avg_sleep_duration, y = avg_heart_rate, color = factor(Id))) +
+  geom_point() +
+  labs(title = "Average Sleep Duration vs. Average Heart Rate by User",
        x = "Average Sleep Duration (minutes)",
        y = "Average Heart Rate (bpm)") +
-  theme_minimal()
+  theme(legend.position = "right")
 
-#Scatter plot of correlation of weight with activity levels
-data(re_weight_steps)
-View(re_weight_steps)
-ggplot(data=re_weight_steps, aes(x = avg_weight, y = avg_steps)) +
-  geom_point(color = 'purple') +
-  labs(title = "Scatter Plot of Weight vs Steps",
+
+# Scatter plot of Average Weight vs. Average Steps by User
+ggplot(data=re_weight_steps, aes(x = avg_weight, y = avg_steps, color = factor(Id))) +
+  geom_point() +
+  labs(title = "Average Weight vs. Average Steps by User",
        x = "Average Weight (kg)",
        y = "Average Steps") +
-  theme_minimal()
+  theme(legend.position = "right")
 
 
 
