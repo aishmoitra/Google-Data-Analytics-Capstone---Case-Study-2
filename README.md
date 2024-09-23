@@ -36,7 +36,7 @@ The business task is to:
 
 3.	**Data Exploration**: To understand the structure of the 29 tables across both databases, I used the DESCRIBE function. This helped me get a clear view of the table schemas. I also employed the SELECT * FROM function to explore the data within these tables.
 
-4.	**Data Selection for Analysis**: Since my analysis focused on daily activities, I decided to work exclusively with the data from fitbit_dataset_2. From this dataset, I selected the following tables for my analysis:
+4.	**Data Selection for Analysis**: Since my analysis focused on day to day changes, I decided to work exclusively with the data from fitbit_dataset_2, since fitbit_dataset_1 consisted of information based on minutes and seconds. However, I did choose the heartrate_seconds_merged table because the information wasn't available on day to day basis. From this dataset, I selected the following tables for my analysis:
    
       1.  dailyactivity_merged.csv
       2.  heartrate_seconds_merged.csv
