@@ -36,10 +36,10 @@ Overview: This dataset contains personal fitness tracker data collected from 30 
 
 4.	**Data Selection for Analysis**: Since my analysis focused on daily activities, I decided to work exclusively with the data from fitbit_dataset_2. From this dataset, I selected the following tables for my analysis:
    
-   1.  dailyactivity_merged.csv
-   2.  heartrate_seconds_merged.csv
-   3.  sleepday_merged.csv
-   4.  weightloginfo_merged.csv
+      1.  dailyactivity_merged.csv
+      2.  heartrate_seconds_merged.csv
+      3.  sleepday_merged.csv
+      4.  weightloginfo_merged.csv
 
 This structured approach allowed me to effectively manage and analyze the Fitbit data, focusing on the insights that matter most.
 
@@ -53,9 +53,9 @@ I calculated the average number of steps taken and calories burned across all us
 2.	**User Segmentation Based on Daily Steps:**
 I categorized users into three groups based on their average daily steps:
 
-   1. Moderately Active Users (19 users): Engaging in 5,000 to 10,000 steps, this is the largest group.
-   2. Low Activity Users (8 users): Taking fewer than 5,000 steps, indicating a need for more motivation.
-   3. Highly Active Users (7 users): Exceeding 10,000 steps, likely committed to their fitness.
+      1. Moderately Active Users (19 users): Engaging in 5,000 to 10,000 steps, this is the largest group.
+      2. Low Activity Users (8 users): Taking fewer than 5,000 steps, indicating a need for more motivation.
+      3. Highly Active Users (7 users): Exceeding 10,000 steps, likely committed to their fitness.
 
 ![alt text](https://github.com/aishmoitra/moitra/blob/98102b620b622d9fcc51083790d465fd9d60235c/Data%20Viz/Fig%201.png)
 
