@@ -1,6 +1,6 @@
-**Case Study 2: How Can a Wellness Technology Company Play It Smart?**
+**Case Study 2: How Can a Wellness Technology Company Play It Smart?** 
 
-**Background**
+**Background** 
 
 Urška Sršen and Sando Mur founded Bellabeat, a high-tech company that manufactures health-focused smart products. Sršen used her background as an artist to develop beautifully designed technology that informs and inspires women around the world. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women. By 2016, Bellabeat had opened offices around the world and launched multiple products. Bellabeat products became available through a growing number of online retailers in addition to their own e-commerce channel on their website. The company has invested in traditional advertising media, such as radio, out-of-home billboards, print, and television, but focuses on digital marketing extensively. Bellabeat invests year-round in Google Search, maintaining active Facebook and Instagram pages, and consistently engages consumers on Twitter. Additionally, Bellabeat runs video ads on Youtube and display ads on the Google Display Network to support campaigns around key marketing dates. Sršen knows that an analysis of Bellabeat’s available consumer data would reveal more opportunities for growth. She has asked the marketing analytics team to focus on a Bellabeat product and analyze smart device usage data in order to gain insight into how people are already using their smart devices. Then, using this information, she would like high-level recommendations for how these trends can inform Bellabeat marketing strategy.
 
@@ -35,10 +35,10 @@ Overview: This dataset contains personal fitness tracker data collected from 30 
 3.	**Data Exploration**: To understand the structure of the 29 tables across both databases, I used the DESCRIBE function. This helped me get a clear view of the table schemas. I also employed the SELECT * FROM function to explore the data within these tables.
 
 4.	**Data Selection for Analysis**: Since my analysis focused on daily activities, I decided to work exclusively with the data from fitbit_dataset_2. From this dataset, I selected the following tables for my analysis:
-    a. dailyactivity_merged.csv
-    b. heartrate_seconds_merged.csv
-    c. sleepday_merged.csv
-    d. weightloginfo_merged.csv
+4.1. dailyactivity_merged.csv
+4.2. heartrate_seconds_merged.csv
+4.3. sleepday_merged.csv
+4.4. weightloginfo_merged.csv
 
 This structured approach allowed me to effectively manage and analyze the Fitbit data, focusing on the insights that matter most.
 
@@ -52,9 +52,9 @@ I calculated the average number of steps taken and calories burned across all us
 2.	**User Segmentation Based on Daily Steps:**
 I categorized users into three groups based on their average daily steps:
 
-    a. Moderately Active Users (19 users): Engaging in 5,000 to 10,000 steps, this is the largest group.
-    b. Low Activity Users (8 users): Taking fewer than 5,000 steps, indicating a need for more motivation.
-    c. Highly Active Users (7 users): Exceeding 10,000 steps, likely committed to their fitness.
+2.1. Moderately Active Users (19 users): Engaging in 5,000 to 10,000 steps, this is the largest group.
+2.2. Low Activity Users (8 users): Taking fewer than 5,000 steps, indicating a need for more motivation.
+2.3. Highly Active Users (7 users): Exceeding 10,000 steps, likely committed to their fitness.
 
 ![alt text](https://github.com/aishmoitra/moitra/blob/98102b620b622d9fcc51083790d465fd9d60235c/Data%20Viz/Fig%201.png)
 
@@ -89,33 +89,33 @@ I observed that some users with higher weights, like 8877689391, still maintaine
 
 **ACT**
 1. **Understanding User Activity and Health Trends**
-   a. **Steps and Calories:** On average, users take around 7,637 steps per day, which is a bit below the recommended 10,000 steps. They burn around 2,300 calories. Bellabeat can help users get closer to their step goals by using the Leaf or Time tracker to send reminders or set personalized step targets. The Bellabeat app could also guide users on how to burn more calories based on their activity.
+1.1. **Steps and Calories:** On average, users take around 7,637 steps per day, which is a bit below the recommended 10,000 steps. They burn around 2,300 calories. Bellabeat can help users get closer to their step goals by using the Leaf or Time tracker to send reminders or set personalized step targets. The Bellabeat app could also guide users on how to burn more calories based on their activity.
 
-   b. **User Segmentation:** I noticed three types of users:
+1.2. **User Segmentation:** I noticed three types of users:
 
-      i. Moderate Activity: Most people fall into this group, walking between 5,000 and 10,000 steps.
-      ii. Low Activity: Some users take fewer than 5,000 steps, and they could use more motivation.
-      iii. Highly Active: A smaller group is very active, taking over 10,000 steps daily.
+1.2.1. Moderate Activity: Most people fall into this group, walking between 5,000 and 10,000 steps.
+1.2.2. Low Activity: Some users take fewer than 5,000 steps, and they could use more motivation.
+1.2.3. Highly Active: A smaller group is very active, taking over 10,000 steps daily.
   
 We can use this to personalize recommendations. For example, users with low activity can get simpler, achievable goals, while highly active users might appreciate more advanced workout ideas through the Bellabeat app or Bellabeat membership.
 
 2. **Applying This to Bellabeat Products**
    
-   a. **Heart Rate Monitoring:** I looked at heart rate data and found that activity levels don’t always match heart health. Bellabeat’s Leaf and Time trackers can help by monitoring heart rate and giving feedback in the Bellabeat app. If users have high heart rates even with low activity, they could get tips on managing stress better.
+2.1. **Heart Rate Monitoring:** I looked at heart rate data and found that activity levels don’t always match heart health. Bellabeat’s Leaf and Time trackers can help by monitoring heart rate and giving feedback in the Bellabeat app. If users have high heart rates even with low activity, they could get tips on managing stress better.
 
-   b. **Sleep and Activity:** Sleep is another important area. On average, users sleep around 7 hours, which is slightly below the recommended amount. Bellabeat can use the Leaf and Time trackers to help users improve their sleep patterns. The Bellabeat membership could offer personalized sleep tips, like bedtime routines or relaxation techniques.
+2.2. **Sleep and Activity:** Sleep is another important area. On average, users sleep around 7 hours, which is slightly below the recommended amount. Bellabeat can use the Leaf and Time trackers to help users improve their sleep patterns. The Bellabeat membership could offer personalized sleep tips, like bedtime routines or relaxation techniques.
 
-   c. **Hydration:** The Spring water bottle tracks hydration, and based on what I found, it could remind users to stay hydrated, especially after periods of high activity. For instance, users who walk a lot or have higher heart rates might get reminders to drink more water.
+2.3. **Hydration:** The Spring water bottle tracks hydration, and based on what I found, it could remind users to stay hydrated, especially after periods of high activity. For instance, users who walk a lot or have higher heart rates might get reminders to drink more water.
 
 3. **Improving Bellabeat’s Marketing Strategy**
    
-   a. **Personalized Wellness:** We can use the data from the Bellabeat app to send users personalized health advice. For example, if a user has low activity and high stress, we could offer them mindfulness tips or suggest using the Leaf tracker for stress management. The Bellabeat membership can give users access to even more customized wellness plans.
+3.1. **Personalized Wellness:** We can use the data from the Bellabeat app to send users personalized health advice. For example, if a user has low activity and high stress, we could offer them mindfulness tips or suggest using the Leaf tracker for stress management. The Bellabeat membership can give users access to even more customized wellness plans.
 
-   b. **Focus on Holistic Health:** Bellabeat isn’t just about counting steps—it’s about tracking overall wellness, including sleep, stress, hydration, and menstrual cycles. We can highlight how Bellabeat takes a holistic approach to health in our marketing, which makes it a perfect fit for people looking for more than just a fitness tracker.
+3.2. **Focus on Holistic Health:** Bellabeat isn’t just about counting steps—it’s about tracking overall wellness, including sleep, stress, hydration, and menstrual cycles. We can highlight how Bellabeat takes a holistic approach to health in our marketing, which makes it a perfect fit for people looking for more than just a fitness tracker.
 
-   c. **Helping Low-Activity Users:** For users who aren’t very active, Bellabeat can create campaigns that encourage them to start small. We could share easy workout ideas or send them reminders to take short walks. Offering simple health goals through the Bellabeat membership can motivate them to become more active.
+3.3. **Helping Low-Activity Users:** For users who aren’t very active, Bellabeat can create campaigns that encourage them to start small. We could share easy workout ideas or send them reminders to take short walks. Offering simple health goals through the Bellabeat membership can motivate them to become more active.
 
-   d. **Engaging Active Users:** Highly active users might appreciate the extra insights that come with the Bellabeat membership, like personalized plans for better recovery or performance improvement. We could promote the membership as a way to take their fitness to the next level.
+3.4. **Engaging Active Users:** Highly active users might appreciate the extra insights that come with the Bellabeat membership, like personalized plans for better recovery or performance improvement. We could promote the membership as a way to take their fitness to the next level.
 
-   e. **Educational Content:** Lastly, we can create content that teaches users about the connections between sleep, stress, and activity. For example, blog posts or notifications in the app could explain how Bellabeat’s products help manage stress and improve sleep, encouraging users to get the most out of their Leaf or Time tracker.
+3.5. **Educational Content:** Lastly, we can create content that teaches users about the connections between sleep, stress, and activity. For example, blog posts or notifications in the app could explain how Bellabeat’s products help manage stress and improve sleep, encouraging users to get the most out of their Leaf or Time tracker.
 
