@@ -1,14 +1,14 @@
-**Case Study 2: How Can a Wellness Technology Company Play It Smart?** 
+## Case Study 2: How Can a Wellness Technology Company Play It Smart?
 
-**Background** 
+### Background 
 
 Urška Sršen and Sando Mur founded Bellabeat, a high-tech company that manufactures health-focused smart products. Sršen used her background as an artist to develop beautifully designed technology that informs and inspires women around the world. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women. By 2016, Bellabeat had opened offices around the world and launched multiple products. Bellabeat products became available through a growing number of online retailers in addition to their own e-commerce channel on their website. The company has invested in traditional advertising media, such as radio, out-of-home billboards, print, and television, but focuses on digital marketing extensively. Bellabeat invests year-round in Google Search, maintaining active Facebook and Instagram pages, and consistently engages consumers on Twitter. Additionally, Bellabeat runs video ads on Youtube and display ads on the Google Display Network to support campaigns around key marketing dates. Sršen knows that an analysis of Bellabeat’s available consumer data would reveal more opportunities for growth. She has asked the marketing analytics team to focus on a Bellabeat product and analyze smart device usage data in order to gain insight into how people are already using their smart devices. Then, using this information, she would like high-level recommendations for how these trends can inform Bellabeat marketing strategy.
 
-**Scenario** 
+### Scenario 
 
 You are a junior data analyst working on the marketing analyst team at Bellabeat, a high-tech manufacturer of health-focused products for women. Bellabeat is a successful small company, but they have the potential to become a larger player in the global smart device market. Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. You have been asked to focus on one of Bellabeat’s products and analyze smart device data to gain insight into how consumers are using their smart devices. The insights you discover will then help guide marketing strategy for the company. You will present your analysis to the Bellabeat executive team along with your high-level recommendations for Bellabeat’s marketing strategy.
 
-**Products**
+### Products
 
 1. **Bellabeat app**: The Bellabeat app provides users with health data related to their activity, sleep, stress,
 menstrual cycle, and mindfulness habits. This data can help users better understand their current habits and
@@ -29,7 +29,7 @@ hydration levels.
 Membership gives users 24/7 access to fully personalized guidance on nutrition, activity, sleep, health and
 beauty, and mindfulness based on their lifestyle and goals.
 
-**ASK**
+### ASK
 
 The business task is to:
 
@@ -39,7 +39,7 @@ The business task is to:
 
 3.	Provide actionable recommendations to optimize Bellabeat's marketing strategy based on the analysis.
 
-**PREPARE**
+### PREPARE
 
 **Dataset: FitBit Fitness Tracker Data** 
 
@@ -49,7 +49,7 @@ The business task is to:
 
 3. **Licensing and Privacy**: CC0 license allows free use; anonymization of identifiable information is essential.
 
-**PROCESS**
+### PROCESS
 
 1.	**Tools I Used**: I chose MySQL for my analysis because I was working with a large dataset. I also chose Tableau and R for data visualizations.
 
@@ -64,7 +64,7 @@ The business task is to:
       3.  sleepday_merged.csv
       4.  weightloginfo_merged.csv
 
-**ANALYZE & SHARE**
+### ANALYZE & SHARE
 
 As I delved into the FitBit Fitness Tracker dataset, I explored various aspects of user activity, health metrics, and their relationships. Here’s a structured overview of my findings:
 
@@ -131,9 +131,11 @@ I observed that some users with higher weights, like 8877689391, still maintaine
  
 ![alt text](https://github.com/aishmoitra/Google-Data-Analytics-Capstone---Case-Study-2/blob/d39b95238add0d3e35ff55bbedb040a15b36e4ee/Data%20Viz/Fig%201.4.png)
 
-**ACT**
-1. **Understanding User Activity and Health Trends**
-   1. **Steps and Calories:** On average, users take around 7,637 steps per day, which is a bit below the recommended 10,000 steps.     They burn around 2,300 calories. Bellabeat can help users get closer to their step goals by using the Leaf or Time tracker to send reminders or set personalized step targets. The Bellabeat app could also guide users on how to burn more calories based on their activity.
+### ACT
+
+1. **Understanding User Activity and Health Trends and Applying This to Bellabeat Products**
+   
+   1. **Steps and Calories:** On average, users take around 7,637 steps per day, which is a bit below the recommended 10,000 steps. They burn around 2,300 calories. Bellabeat can help users get closer to their step goals by using the Leaf or Time tracker to send reminders or set personalized step targets. The Bellabeat app could also guide users on how to burn more calories based on their activity.
 
    2. **User Segmentation:** I noticed three types of users:
 
@@ -142,16 +144,14 @@ I observed that some users with higher weights, like 8877689391, still maintaine
       3. Highly Active: A smaller group is very active, taking over 10,000 steps daily.
   
 We can use this to personalize recommendations. For example, users with low activity can get simpler, achievable goals, while highly active users might appreciate more advanced workout ideas through the Bellabeat app or Bellabeat membership.
-
-2. **Applying This to Bellabeat Products**
    
-   1. **Heart Rate Monitoring:** I looked at heart rate data and found that activity levels don’t always match heart health. Bellabeat’s Leaf and Time trackers can help by monitoring heart rate and giving feedback in the Bellabeat app. If users have high heart rates even with low activity, they could get tips on managing stress better.
+   2. **Heart Rate Monitoring:** I looked at heart rate data and found that activity levels don’t always match heart health. Bellabeat’s Leaf and Time trackers can help by monitoring heart rate and giving feedback in the Bellabeat app. If users have high heart rates even with low activity, they could get tips on managing stress better.
 
-   2. **Sleep and Activity:** Sleep is another important area. On average, users sleep around 7 hours, which is slightly below the recommended amount. Bellabeat can use the Leaf and Time trackers to help users improve their sleep patterns. The Bellabeat membership could offer personalized sleep tips, like bedtime routines or relaxation techniques.
+   3. **Sleep and Activity:** Sleep is another important area. On average, users sleep around 7 hours, which is slightly below the recommended amount. Bellabeat can use the Leaf and Time trackers to help users improve their sleep patterns. The Bellabeat membership could offer personalized sleep tips, like bedtime routines or relaxation techniques.
 
-   3. **Hydration:** The Spring water bottle tracks hydration, and based on what I found, it could remind users to stay hydrated, especially after periods of high activity. For instance, users who walk a lot or have higher heart rates might get reminders to drink more water.
+   4. **Hydration:** The Spring water bottle tracks hydration, and based on what I found, it could remind users to stay hydrated, especially after periods of high activity. For instance, users who walk a lot or have higher heart rates might get reminders to drink more water.
 
-3. **Improving Bellabeat’s Marketing Strategy**
+2. **Improving Bellabeat’s Marketing Strategy**
    
    1. **Personalized Wellness:** We can use the data from the Bellabeat app to send users personalized health advice. For example, if a user has low activity and high stress, we could offer them mindfulness tips or suggest using the Leaf tracker for stress management. The Bellabeat membership can give users access to even more customized wellness plans.
 
