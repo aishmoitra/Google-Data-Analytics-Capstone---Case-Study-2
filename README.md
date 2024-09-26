@@ -142,8 +142,8 @@ I observed that some users with higher weights, like 8877689391, still maintaine
       1. Moderate Activity: Most people fall into this group, walking between 5,000 and 10,000 steps.
       2. Low Activity: Some users take fewer than 5,000 steps, and they could use more motivation.
       3. Highly Active: A smaller group is very active, taking over 10,000 steps daily.
-  
-We can use this to personalize recommendations. For example, users with low activity can get simpler, achievable goals, while highly active users might appreciate more advanced workout ideas through the Bellabeat app or Bellabeat membership.
+      
+      We can use this to personalize recommendations. For example, users with low activity can get simpler, achievable goals, while highly active users might appreciate more advanced workout ideas through the Bellabeat app or Bellabeat membership.
    
    2. **Heart Rate Monitoring:** I looked at heart rate data and found that activity levels don’t always match heart health. Bellabeat’s Leaf and Time trackers can help by monitoring heart rate and giving feedback in the Bellabeat app. If users have high heart rates even with low activity, they could get tips on managing stress better.
 
